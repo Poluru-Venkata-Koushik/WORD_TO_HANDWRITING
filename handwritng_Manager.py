@@ -13,7 +13,7 @@ def input_thing():
         a=sent[p]
         global img1,img2
 
-        if (25 * i) >= 680:
+        if (18 * i) >= 680:
             j += 80
             i=1
 
@@ -143,7 +143,7 @@ def white_sheet_doc():
 def ruled_sheet_doc():
     global img1, img2
     img1 = Image.open('lines.jpg')
-    img1=img1.resize((700,1000))
+    img1=img1.resize((700, 1000))
     input_thing()
     img1.show()
 
