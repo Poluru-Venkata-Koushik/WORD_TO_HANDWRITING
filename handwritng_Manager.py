@@ -6,12 +6,13 @@ main_e.geometry('400x200')
 main_e.resizable(False,False)
 main_e.title("Handwritten text tool")
 def input_thing():
+    sent=input("Enter something:")
     i = 1
     j = 30
-    while (1):
+    for p in range(len(sent)):
+        a=sent[p]
         global img1,img2
 
-        a = input("enter alphabet:")
         if (25 * i) >= 650:
             j += 55
             i=1
@@ -64,8 +65,61 @@ def input_thing():
             img2 = Image.open(r'lower_case/l-removebg-preview.png')
             img2 = img2.resize((25, 90))
             img1.paste(img2, (25 * i -3, j), mask=img2)
+
         elif a == 'm':
             img2 = Image.open(r'lower_case/m-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'n':
+            img2 = Image.open(r'lower_case/n-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'o':
+            img2 = Image.open(r'lower_case/o-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'p':
+            img2 = Image.open(r'lower_case/p-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'q':
+            img2 = Image.open(r'lower_case/q-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'r':
+            img2 = Image.open(r'lower_case/r-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 's':
+            img2 = Image.open(r'lower_case/s-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 't':
+            img2 = Image.open(r'lower_case/t-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'u':
+            img2 = Image.open(r'lower_case/u-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'v':
+            img2 = Image.open(r'lower_case/v-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'w':
+            img2 = Image.open(r'lower_case/w-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'x':
+            img2 = Image.open(r'lower_case/x-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'y':
+            img2 = Image.open(r'lower_case/y-removebg-preview.png')
+            img2 = img2.resize((25, 90))
+            img1.paste(img2, (25 * i - 3, j), mask=img2)
+        elif a == 'z':
+            img2 = Image.open(r'lower_case/z-removebg-preview.png')
             img2 = img2.resize((25, 90))
             img1.paste(img2, (25 * i - 3, j), mask=img2)
 
