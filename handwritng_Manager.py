@@ -20,116 +20,88 @@ def input_thing():
         if a == 'a':
             img2 = Image.open(r'lower_case/a-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i-3, j), mask=img2)
         elif a == 'b':
             img2 = Image.open(r'lower_case/b-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'c':
             img2 = Image.open(r'lower_case/c-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'd':
             img2 = Image.open(r'lower_case/d-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'e':
             img2 = Image.open(r'lower_case/e-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'f':
             img2 = Image.open(r'lower_case/f-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'g':
             img2 = Image.open(r'lower_case/g-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'h':
             img2 = Image.open(r'lower_case/h-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'i':
             img2 = Image.open(r'lower_case/i-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'j':
             img2 = Image.open(r'lower_case/j-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'k':
             img2 = Image.open(r'lower_case/k-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'l':
             img2 = Image.open(r'lower_case/l-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i -3, j), mask=img2)
-
         elif a == 'm':
             img2 = Image.open(r'lower_case/m-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'n':
             img2 = Image.open(r'lower_case/n-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'o':
             img2 = Image.open(r'lower_case/o-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'p':
             img2 = Image.open(r'lower_case/p-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'q':
             img2 = Image.open(r'lower_case/q-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'r':
             img2 = Image.open(r'lower_case/r-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 's':
             img2 = Image.open(r'lower_case/s-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 't':
             img2 = Image.open(r'lower_case/t-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'u':
             img2 = Image.open(r'lower_case/u-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'v':
             img2 = Image.open(r'lower_case/v-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'w':
             img2 = Image.open(r'lower_case/w-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'x':
             img2 = Image.open(r'lower_case/x-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'y':
             img2 = Image.open(r'lower_case/y-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
         elif a == 'z':
             img2 = Image.open(r'lower_case/z-removebg-preview.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
 
         elif a == ' ':
             img2 = Image.open(r'lower_case/blank.png')
             img2 = img2.resize((18, 70))
-            img1.paste(img2, (18 * i - 3, j), mask=img2)
-
         else:
             break
+        img1.paste(img2, (18 * i - 3, j), mask=img2)
         i += 1
 
 
